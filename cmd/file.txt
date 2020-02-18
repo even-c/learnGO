@@ -1,0 +1,11 @@
+//創建資料夾
+mkdir folderName
+
+// 有文字檔案
+echo some-text  > filename.txt 
+
+// 空檔案
+touch fileName 
+
+// 刪除檔案
+del /f fileName

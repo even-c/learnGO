@@ -1,0 +1,6 @@
+git init
+
+git add fileName
+git commit -m "message"
+git remote add origin https://github.com/even-c/learnGo.git
+git push -u origin master

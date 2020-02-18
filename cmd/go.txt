@@ -1,0 +1,11 @@
+go run fileName
+
+go get package
+
+-d 只有下載, 不會安裝
+-v verbose, 顯示下載編譯時的log
+-u 更新既有的依賴包
+./..
+
+
+go mod init github.com/userName/projectName
