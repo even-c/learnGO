@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/even-c/src/testlib"
+	"github.com/even-c/learnGo/src/testlib"
 
 	log "github.com/sirupsen/logrus"
 )
