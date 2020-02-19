@@ -1,14 +1,10 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/even-c/learnGo/testlib"
-
-	log "github.com/sirupsen/logrus"
+	"github.com/even-c/learnGo/router"
 )
 
 func main() {
-	fmt.Println(testlib.Add(1, 2))
-	log.Info("IThome Iron man")
+	router := router.SetupRouter()
+	router.Run()
 }
