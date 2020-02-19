@@ -6,5 +6,5 @@ import (
 
 func main() {
 	router := router.SetupRouter()
-	router.Run()
+	router.Run() // can set port example router.Run(":9205")
 }

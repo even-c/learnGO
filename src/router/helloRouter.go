@@ -12,11 +12,4 @@ func SetupRouter() *gin.Engine {
 	return router
 }
 
-func Default() *Engine {
-	debugPrintWARNINGDefault()
-	engine := New()
-	engine.Use(Logger(), Recovery())
-	return engine
-}
-
 // "github.com/even-c/learnGo/testlib"
